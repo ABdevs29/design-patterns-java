@@ -1,6 +1,6 @@
 package lldbasics;
 
-public class Pigeon extends FlyingBird{
+public class Pigeon extends Bird implements FlyingBird{
 
     public void fly() {
         System.out.println("Pigeon fly");

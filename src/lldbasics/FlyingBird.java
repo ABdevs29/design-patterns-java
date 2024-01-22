@@ -1,5 +1,5 @@
 package lldbasics;
 
-public abstract class FlyingBird extends Bird{
-    public abstract void fly();
+public interface FlyingBird {
+    void fly();
 }

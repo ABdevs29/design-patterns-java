@@ -2,7 +2,7 @@ package lldbasics;
 
 public class Main {
     public static void main (String[] args) {
-        Pigeon b1 = new Pigeon();
+        Bird b1 = new Pigeon();
         b1.setName("pigeon");
         b1.setAge(2);
         b1.setColor("white");
@@ -17,12 +17,11 @@ public class Main {
         b2.makeSound();
         b2.fly();
 
-        Peacock b3 = new Peacock();
+        Bird b3 = new Peacock();
         b3.setName("peacock");
         b3.setAge(2);
         b3.setColor("blue");
         b3.setNoOfWings(2);
         b3.makeSound();
-
     }
 }
