@@ -17,11 +17,12 @@ public class Main {
         b2.makeSound();
         b2.fly();
 
-        Bird b3 = new Peacock();
+        Peacock b3 = new Peacock();
         b3.setName("peacock");
         b3.setAge(2);
         b3.setColor("blue");
         b3.setNoOfWings(2);
         b3.makeSound();
+        b3.dance();
     }
 }

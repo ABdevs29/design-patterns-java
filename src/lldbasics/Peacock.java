@@ -1,6 +1,6 @@
 package lldbasics;
 
-public class Peacock extends Bird {
+public class Peacock extends Bird implements DancingBird {
 
     public void makeSound() {
         System.out.println("Peacock peacock");
